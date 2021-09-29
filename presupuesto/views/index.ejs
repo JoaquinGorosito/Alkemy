@@ -2,10 +2,26 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <form action="">
+      <div>
+        <label for="">Concepto</label>
+        <input type="text" name="concepto" />
+      </div>
+      <div>
+        <label for="">Monto</label>
+        <input type="text" name="monto"/>
+      </div>
+      <div>
+        <label for="">Fecha</label>
+        <input type="text" name="fecha" />
+      </div>
+      <div>
+        <label for="">Tipo</label>
+        <select name="tipo" id=""></select>
+      </div>
+    </form>
   </body>
 </html>
